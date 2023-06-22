@@ -1,8 +1,6 @@
 import streamlit as st
 import tensorflow as tf
-st.set_option('deprecation.showfileUploaderEncoding',False)
 class_names = ['Fake','Real']
-@st.cache_data#so that we dont need to load the model each time
 modelp=tf.keras.models.load_model('my_model2.hdf5')
 st.write(
          """
