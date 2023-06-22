@@ -26,9 +26,9 @@ else:
     st.image(image, use_column_width=True)#display 
     predictions = import_and_predict(image, modelp)
     score = tf.nn.sigmoid(predictions[0])
-    st.write(predictions)
+    st.write(predictions[0])
     #st.write(score)
-    if(score==0):
+    if(score<0.5):
              st.write("This image is most likely Fake.")
     else:
              st.write("This image is most likely Real.")
