@@ -28,7 +28,7 @@ else:
     score = tf.nn.sigmoid(predictions[0])
     st.write(predictions[0])
     #st.write(score)
-    if(score<0.5):
+    if(predictions[0]==0):
              st.write("This image is most likely Fake.")
     else:
              st.write("This image is most likely Real.")
