@@ -29,7 +29,7 @@ else:
     #st.write(predictions[0])
     #st.write(score)
     if(predictions[0]==0):
-             st.write("This image is most likely Fake.")
+             st.write("This image is most likely AI-Generated.")
     else:
              st.write("This image is most likely Real.")
 
