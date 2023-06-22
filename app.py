@@ -15,7 +15,7 @@ def import_and_predict(image_data, model1):
         size = (32,32)    
         image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
         image = np.asarray(image)
-        img_reshape = imgage[np.newaxis,...]#model is trained on 4dimensions,this line adds new dimension
+        img_reshape = image[np.newaxis,...]#model is trained on 4dimensions,this line adds new dimension
         prediction = model1.predict(img_reshape)        
         return prediction
 
