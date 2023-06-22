@@ -28,8 +28,8 @@ else:
     score = tf.nn.sigmoid(predictions[0])
     st.write(predictions)
     st.write(score)
-    st.write(
-    "This image most likely belongs to {} with a {:.2f} percent confidence."
-    .format(class_names[np.argmax(score)], 100 * np.max(score))
-)
+    if(score==0):
+             st.write("This image is most likely Fake.")
+    else:
+             st.write("This image is most likely Real.")
 
