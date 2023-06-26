@@ -1,5 +1,5 @@
 # Image-Clasiifier
-This is a web app built using streamlit
+This is a web app built using streamlit  
 [Link to Web app
 ](https://imagea.streamlit.app/)  
 ## Steps:
