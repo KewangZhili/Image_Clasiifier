@@ -1,2 +1,3 @@
 tensorflow
 numpy 
+and apart from this selenium and google chrome also have to be present
