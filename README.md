@@ -12,7 +12,7 @@
 **-------------------------------------------------------------------------------------------------------------------------------------**
 
   **PART-1::**
-  <<WEB SCRAPING>>
+  **WEB SCRAPING**
   1. FIRST CREATED A CHROME DRIVER INSTANCE 
 <img width="1022" alt="Screenshot 0005-07-29 at 14 28 49" src="https://github.com/KewangZhili/Image_Clasiifier/assets/111041497/add17153-79b7-4ce2-afef-d4a13d7e8f97">
   2. THEN WROTE A FUNCTION THAT TAKES IN URL AND NO. OF IMAGES TO BE DOWNLOADED, AND DOWNLOADS THE IMAGES FROM THE SAID URL INTO A FILE CREATED USING THE FUNCTIONS AS DEPICTED BELOW::
@@ -27,7 +27,7 @@
 **-------------------------------------------------------------------------------------------------------------------------------------**
 
   **PART-2**
-  <<BUILDING THE ACTUAL MODEL>>
+  **BUILDING THE ACTUAL MODEL**
 
   1.CREATED THE TRAIN AND TEST DATA SET AS FOLLOWS:
 
